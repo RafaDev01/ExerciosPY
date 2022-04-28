@@ -1,3 +1,3 @@
-n = float(input('Digite quanto dinheiro você tem: '))
-dolar = n / 4.80
-print('Você pode comprar US{}.'.format(dolar))
+real = float(input('Digite quanto dinheiro você tem: R$'))
+dolar = real / 4.80
+print('Com {} Você pode comprar US{:.2f}.'.format(real, dolar))
